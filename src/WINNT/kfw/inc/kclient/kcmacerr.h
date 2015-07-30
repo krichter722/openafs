@@ -1,6 +1,6 @@
 
 /* Error codes from Mac version of Project Mandarin Kerberos Client */
-/* Copyright � 1995 Project Mandarin, Inc. */
+/* Copyright Â© 1995 Project Mandarin, Inc. */
 
 typedef signed short OSErr;
 

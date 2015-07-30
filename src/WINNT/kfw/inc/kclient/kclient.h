@@ -1,6 +1,6 @@
 /*
 
-Copyright � 1996 by Project Mandarin, Inc.
+Copyright Â© 1996 by Project Mandarin, Inc.
 
 Error codes copyright 1996 by Massachusetts Institute of Technology
 

@@ -1735,29 +1735,4 @@ TYPEDEF_FUNC(
     krb5_error_code,
     KRB5_CALLCONV,
     krb5_kt_end_seq_get,
-    (krb5_context context, krb5_keytab keytab, krb5_kt_cursor *cursor)
-    );
-
-TYPEDEF_FUNC(
-    krb5_error_code,
-    KRB5_CALLCONV,
-    krb5_locate_kdc,
-    (krb5_context context, const krb5_data *realm,
-      struct addrlist *addrlist,
-      int get_masters, int socktype, int family)
-    );
-
-TYPEDEF_FUNC(
-    char *,
-    KRB5_CALLCONV,
-    krb5_get_error_message,
-    (krb5_context context, krb5_error_code code)
-    );
-
-TYPEDEF_FUNC(
-    void,
-    KRB5_CALLCONV,
-    krb5_free_error_message,
-    (krb5_context context, char *s)
-    );
-#endif /* __LOADFUNCS_KRB5_H__ */
+    (krb5_context context, krb5_keytab keytab, krb5_kt_
