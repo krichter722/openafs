@@ -608,6 +608,7 @@ SetCellName(struct cmd_syndesc *as, void *arock)
     code = BOZO_SetCellName(tconn, as->parms[1].items->data);
     if (code)
 	fprintf(stderr, "bos: failed to set cell (%s)\n", em(code));
+        return 1;
     return 0;
 }
 
